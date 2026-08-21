@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    font-family: 'Roboto';
+    margin: 0 auto;
+}
+header {
+    padding: 10px;
+}
+
+header, .hero, .secondary, footer {
+    display: flex;
+}
+
+header, .hero, footer {
+    background:#1F2937;
+}
+
+.hero, .infoBoxes, .quote, .final {
+    padding: 100px;
+}
+
+.heroSize {
+    max-width: 400px; 
+}
+
+.topPadding {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.leftPadding {
+    padding-left: 10px;
+}
+
+.infoBox {
+    text-align: center;
+    max-width: 300px;
+}
+
+.infoBox img {
+   max-width: 300px;
+   border-radius: 5px; 
+   border: solid #3882F6 4px;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.main {
+    font-size: 48px;
+    Color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    Color: #E5E7EB;
+}
+
+button, .callToAction {
+    background-color: #3882F6;
+}
+
+.callTitle {
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.callToAction {
+    display: flex;
+    padding: 50px;
+    max-width: 1000px;
+    border-radius: 10px;
+    font-size: 16px;
+    Color: #E5E7EB;
+}
+
+.information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    background-color: #E5E7EB;
+    Color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.maxSize {
+    max-width: 800px;
+}
+
+.signature {
+    font-weight: 1000;
+    text-align: right;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.boxList {
+    display: flex;
+}
+
+button {
+    Color: #E5E7EB;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #E5E7EB;
+}
